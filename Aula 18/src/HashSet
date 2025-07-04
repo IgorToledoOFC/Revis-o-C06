@@ -1,0 +1,34 @@
+    Para inserir o HashSet basta
+
+    Set<String> conjunto =  new HasSet<String>();
+    conjunto.add("String");
+
+    for(String elemento : conjunto){
+    sout.elemento
+    }
+
+    Remover elemento
+    conjunto.remove(o: "String1");
+
+    *Linked HashSet, ele mantem a ordem dos elementos
+
+    Set<String> conjunto =  new LinkedHasSet<String>();
+
+    HashMap - Muito Rapido
+
+    Map<String, Double> mapaPrecoStreaming = new HashMap<>(); // chave = String valor = Double
+
+    mapaPrecoStreaming.put("Netflix, 25.90);
+
+    mapaPrecoStreaming.get("Netflix")
+
+    Double valor = mapaPrecoStreaming.get("Netflix")
+
+    if (valor == null)
+    sout. não existe no mapa
+
+    como percorrer um mapa
+
+    mapaPrecoStreaming.forEach((chave, valor) -> {// do que estiver antes da seta eu estou criando, depois da seta eu uso
+    sout. "chave: " + chave
+    sout. "valor: " + valor});

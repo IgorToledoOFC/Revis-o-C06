@@ -1,0 +1,53 @@
+lista de arrays
+
+    List listaGenerica = new ArrayList();
+    listaGenerica.add(1);
+    listaGenerica.add("Mamifero");
+    listaGenerica.add("Qualquer String");
+    listaGenerica.add(100.0f);
+
+    Buscar o valor no array list
+
+    int numero = (int) listaGenerica.get(0);
+
+    Array tipado
+
+    List <String> listaDeString = new ArrayList<String>();
+    List <Integer> listaDeInteiros = new ArrayList<Integer>();
+
+    listaDeString.add("1");
+    listaDeString.add("String");
+
+    Percorrer um Array List
+
+    for (int i=0; i < listaDeString.size(); i++){
+        sout.listaDeString.get(i);
+    }
+
+    Ordenar elementos
+    sort(List<T>)
+
+    Collections.sort(listaDeString)
+
+    for( String elemneto : listaDeString){
+        sout. elemento
+    }
+
+    Integer wrap inteiro
+    Float   wrap float
+    Double  wrap double
+
+    Lista de Classes
+
+    public class Brownie implements Comparable <Brownie> {
+
+     protected String nome;
+     protected double preco;
+     protected String sabor;
+
+       @Override
+        Public int compareTo(Brownie o ){
+        return 0;
+        }
+
+   }
